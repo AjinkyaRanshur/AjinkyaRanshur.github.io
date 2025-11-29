@@ -10,8 +10,12 @@ import Home from "./pages/Home";
  * Minimalist Academic Design Philosophy:
  * - Light theme as default (clean, professional)
  * - Swiss-style typography with IBM Plex fonts
- * - Teal accent color for interactive elements
+ * - Warm beige/brown accent colors for mellow vibe
  * - Minimal animations and transitions
+ * 
+ * GitHub Pages Fix:
+ * - Using hash-based routing instead of browser routing
+ * - This prevents 404 errors on page refresh
  */
 
 function Router() {
@@ -19,7 +23,6 @@ function Router() {
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
       <Route component={NotFound} />
     </Switch>
   );

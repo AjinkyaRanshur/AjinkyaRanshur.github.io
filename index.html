@@ -31,7 +31,8 @@
 
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- use a relative entry to avoid absolute-root 404s when served from Pages -->
+    <script type="module" src="./src/main.tsx"></script>
     <script
       defer
       src="%VITE_ANALYTICS_ENDPOINT%/umami"

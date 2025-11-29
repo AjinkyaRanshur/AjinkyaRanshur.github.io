@@ -234,6 +234,21 @@ See [GitHub's documentation](https://docs.github.com/en/pages/configuring-a-cust
 - Run `pnpm build` locally to check for errors
 - Fix any errors and push again
 
+## Key cause of a blank site
+Most blank sites occur because the repository has the source files (Vite + React) but not the built static assets. GitHub Pages serves static HTML/JS/CSS — you must either:
+- Commit & push the `dist/` folder (the production build) and configure Pages to serve from that folder, OR
+- Use a GitHub Actions workflow that runs `pnpm build` and publishes the generated `dist` to a branch used by GitHub Pages (recommended).
+
+## Recommended automatic deploy (GitHub Actions)
+This repo includes a workflow that:
+- Installs Node & pnpm
+- Runs `pnpm install` and `pnpm build`
+- Publishes the `dist/` folder to the `gh-pages` branch
+
+After enabling the workflow, set GitHub Pages to:
+- Source: gh-pages branch
+- Folder: / (root)
+
 ## Project Structure
 
 ```
