@@ -170,7 +170,7 @@ export default function Home() {
       name: "Twitter",
       icon: Twitter,
       href: "https://twitter.com",
-      label: "@yourhandle",
+      label: "@Ajinkya_2107",
     },
   ];
 
@@ -216,9 +216,9 @@ export default function Home() {
                 Master's Student in Neuroscience | Machine Learning Finatic | Open Source Enthusiast
               </p>
               <p className="text-base text-foreground/70 max-w-2xl leading-relaxed">
-                I'm interested in developing mathematical models that mimic (some aspects of the) process insided the brain for
+                I'm interested in developing mathematical models that mimic (some aspects of the) process inside the brain for
                 that I'm currently using machine learning as tool.
-                
+
                 In the near future I wish to build more mathematically inclined models with the help of non linear dynamics or probabiltiy theory.
 
               </p>
