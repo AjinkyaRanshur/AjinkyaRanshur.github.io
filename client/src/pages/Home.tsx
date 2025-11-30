@@ -189,7 +189,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="container max-w-4xl">
           <div className="flex justify-between items-center py-4 mb-0">
-            <h1 className="text-2xl font-bold">Your Name</h1>
+            <h1 className="text-2xl font-bold">Ajinkya Ranshur</h1>
           </div>
           {/* Navigation Tabs */}
           <nav className="nav-tabs">
@@ -370,7 +370,7 @@ export default function Home() {
       <footer className="border-t border-border py-8 mt-16">
         <div className="container max-w-4xl">
           <p className="text-sm text-foreground/60 text-center">
-            © 2024 Your Name. All rights reserved.
+            © 2024 Ajinkya Ranshur. All rights reserved.
           </p>
         </div>
       </footer>
