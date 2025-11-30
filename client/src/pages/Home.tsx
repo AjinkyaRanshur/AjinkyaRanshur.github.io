@@ -151,14 +151,14 @@ export default function Home() {
     {
       name: "Email",
       icon: Mail,
-      href: "mailto:your.email@example.com",
-      label: "your.email@example.com",
+      href: "mailto:ranshur.ajinkya.res@gmail.com",
+      label: "ranshur.ajinkya.res@gmail.com",
     },
     {
       name: "GitHub",
       icon: Github,
       href: "https://github.com",
-      label: "github.com/yourprofile",
+      label: "https://github.com/AjinkyaRanshur",
     },
     {
       name: "LinkedIn",
@@ -213,12 +213,13 @@ export default function Home() {
           <section className="content-section">
             <div className="mb-12">
               <p className="text-lg text-foreground/80 mb-4">
-                Physicist | Data Scientist | Open Source Enthusiast
+                Master's Student in Neuroscience | Machine Learning Finatic | Open Source Enthusiast
               </p>
               <p className="text-base text-foreground/70 max-w-2xl leading-relaxed">
-                Exploring the intersection of physics, computation, and data science.
-                Passionate about scientific research and building tools that advance
-                human knowledge. Welcome to my corner of the internet.
+                I'm interested in developing mathematical models that mimic (some aspects of the) process insided the brain for
+                that I'm currently using machine learning as tool to build these models to bridge the gap between AI and human thinking.
+                In the near future I wish to build more mathematically inclined models with the help of non linear dynamics or probabiltiy theory.
+
               </p>
             </div>
           </section>
