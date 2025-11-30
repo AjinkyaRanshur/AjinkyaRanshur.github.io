@@ -8,7 +8,7 @@ import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime()];
 
 export default defineConfig({
-  base: '/AjinkyaRanshur.github.io/', // Replace with your actual repo name
+  base: '/', // Replace with your actual repo name
   plugins,
   resolve: {
     alias: {
