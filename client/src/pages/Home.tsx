@@ -217,7 +217,8 @@ export default function Home() {
               </p>
               <p className="text-base text-foreground/70 max-w-2xl leading-relaxed">
                 I'm interested in developing mathematical models that mimic (some aspects of the) process insided the brain for
-                that I'm currently using machine learning as tool to build these models to bridge the gap between AI and human thinking.
+                that I'm currently using machine learning as tool.
+                
                 In the near future I wish to build more mathematically inclined models with the help of non linear dynamics or probabiltiy theory.
 
               </p>
