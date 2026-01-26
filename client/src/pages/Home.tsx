@@ -167,8 +167,8 @@ export default function Home() {
       status: "in-progress",
     },
     {
-      title: "Complete Advanced ML Certification",
-      description: "Finish the advanced machine learning specialization.",
+      title: "Start a Youtube Channel",
+      description: "I'm a huge fan of story telling and I wish to document some of the adventures of my life through vlogging.",
       status: "in-progress",
     },
     {
