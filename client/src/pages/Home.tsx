@@ -163,7 +163,7 @@ export default function Home() {
   const goals: Goal[] = [
     {
       title: "Publish in a Peer-Reviewed Journal",
-      description: "Submit and publish research on quantum algorithms.",
+      description: "Submit and publish research in Neurips.",
       status: "in-progress",
     },
     {
